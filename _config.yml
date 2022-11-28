@@ -1,5 +1,12 @@
 title: Joel's Homepage
 description: Bookmark this to keep an eye on my project updates!
-remote_theme: pages-themes/tactile@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
 - jekyll-remote-theme
+timezone: "America/LosAngeles"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+kramdown:
+  input: GFM
