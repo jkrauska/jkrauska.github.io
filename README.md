@@ -1,18 +1,26 @@
-# jkrauska.github.io
-Blogdocs
 
+# Simple home row mods for MacOS split keyboards.
+2022-11-28
 
-# Simnple Mac CAGS SGAC home row mods.
 
 The definitive guide to setting up Home Row Mods is https://precondition.github.io/home-row-mods
 
 But it's also REALLY complicated and I feel it doesn't need to be.
 
+
+## My Setup: CAGS SGAC
+
 My use case which is also the same for most people I know is to add Mac modifiers to the home row on Querty.
 Thats it.
 
+"A" long pressed is "Control"
+"S" long pressed is "Alt/Option"
+"D" long pressed is "GUI/Cmd"
+"F" long pressed is "Shift"
 
-Just wrap ASDF and JKL; with these simple codes in keymap.c:
+And it's mirrored on the right hand.
+
+In the QMK configs you wrap ASDF and JKL; with these codes in keymap.c:
  - CTL_T()
  - OPT_T()
  - CMD_T()
